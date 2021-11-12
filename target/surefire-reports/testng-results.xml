@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2"
+	failed="0" skipped="0">
+	<reporter-output>
+	</reporter-output>
+	<suite started-at="2021-11-11T13:40:08 IST" name="Suite"
+		finished-at="2021-11-11T13:40:37 IST" duration-ms="29104">
+		<groups>
+		</groups>
+		<test started-at="2021-11-11T13:40:08 IST" name="Test"
+			finished-at="2021-11-11T13:40:24 IST" duration-ms="15840">
+			<class name="hello_world.Test1">
+				<test-method
+					signature="VerifyPageTitle(java.lang.String)[pri:0, instance:hello_world.Test1@957e06]"
+					started-at="2021-11-11T13:40:08 IST" name="VerifyPageTitle"
+					finished-at="2021-11-11T13:40:24 IST" duration-ms="15668"
+					status="PASS">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[chrome]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- VerifyPageTitle -->
+			</class> <!-- hello_world.Test1 -->
+		</test> <!-- Test -->
+		<test started-at="2021-11-11T13:40:08 IST" name="Testfirefox"
+			finished-at="2021-11-11T13:40:37 IST" duration-ms="29104">
+			<class name="hello_world.Test1">
+				<test-method
+					signature="VerifyPageTitle(java.lang.String)[pri:0, instance:hello_world.Test1@1e6a3214]"
+					started-at="2021-11-11T13:40:08 IST" name="VerifyPageTitle"
+					finished-at="2021-11-11T13:40:37 IST" duration-ms="29025"
+					status="PASS">
+					<params>
+						<param index="0">
+							<value>
+                <![CDATA[firefox]]>
+							</value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- VerifyPageTitle -->
+			</class> <!-- hello_world.Test1 -->
+		</test> <!-- Testfirefox -->
+	</suite> <!-- Suite -->
+</testng-results>
